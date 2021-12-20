@@ -72,6 +72,10 @@ select {
 
 .campo--p {
     width: 4em;
+    background: #FFFFFF;
+box-shadow: 5px 5px 15px rgb(0 0 0 / 20%);
+border: 1px solid rgba(128, 128, 128, .25);
+border-radius: 5px;
 }
 
 .campo--m {
@@ -79,7 +83,7 @@ select {
 }
 
 .campo--g {
-    width: 16em;
+    width: 20em;
 }
 
 .nav-main button {
@@ -99,6 +103,16 @@ select {
     min-height: 500px;
     width: 875px;
     margin: 50px auto 50px auto;
+    padding: 50px 50px;
+}
+
+.container-impress {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 25px rgb(0 0 0 / 70%);
+    border-radius: 10px;
+    min-height: 500px;
+    width: 950px;
     padding: 50px 50px;
 }
 
@@ -194,7 +208,7 @@ select {
     font-weight: 600;
 }
 
-.botao-adicionar {
+.card--body--area-btn {
     background: #e41021;
     box-shadow: 5px 5px 6px rgb(0 0 0 / 20%);
     border: none;
@@ -210,13 +224,13 @@ select {
     justify-content: flex-end
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
+.nav-main input[type="number"]::-webkit-outer-spin-button,
+.nav-main input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
-input[type="number"] {
+.nav-main input[type="number"] {
     -moz-appearance: textfield;
 }
 
@@ -231,4 +245,67 @@ input[type="number"] {
 
 ::-webkit-scrollbar-thumb {
     background: #707070;
+}
+
+.main--body {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container--impress {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 25px rgb(0 0 0 / 70%);
+    border-radius: 10px;
+    min-height: 500px;
+    width: 350px;
+    padding: 50px 50px;
+}
+
+.container--impress--card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 20%);
+    border: 1px solid rgba(128, 128, 128, .25);
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 8px 5px;
+    width: 16em
+}
+
+.botao-imprimir {
+    background-color: #e41021;
+    box-shadow: 5px 5px 6px rgb(0 0 0 / 20%);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 68px;
+    height: 19px;
+    cursor: pointer;
+    text-align: center
+}
+
+.btns--imprs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.card-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.campo--qt {
+    
+    padding: 8px 5px;
+}
+
+.container--impress--card p {
+    margin: 5px
 }
