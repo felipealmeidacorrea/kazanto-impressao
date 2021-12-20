@@ -1,0 +1,234 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    padding-bottom: 50px;
+    background-color: #F4F6F7;
+
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #e41021;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-principal {
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+
+/*Área de ação*/
+
+.nav-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.nav-main .nav-botao-nav {
+    Background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 20%);
+    border: 1px solid rgba(128, 128, 128, .25);
+    border-radius: 5px;
+    width: 30px;
+    height: auto;
+    min-width: 30px;
+    max-height: 30px;
+    padding: 2px;
+}
+
+.nav-main div img {
+    width: 100%;
+}
+
+.nav-main form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.nav-main input {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 20%);
+    border: 1px solid rgba(128, 128, 128, .25);
+    border-radius: 5px;
+}
+
+.nav-campo {
+    padding: 8px 5px;
+}
+
+select {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 20%);
+    border: 1px solid rgba(128, 128, 128, .25);
+    border-radius: 5px;
+}
+
+.campo--p {
+    width: 4em;
+}
+
+.campo--m {
+    width: 8em;
+}
+
+.campo--g {
+    width: 16em;
+}
+
+.nav-main button {
+    color: #FFFFFF;
+    background: #e41021;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 20%);
+    border: 1px solid rgba(128, 128, 128, .25);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 25px rgb(0 0 0 / 70%);
+    border-radius: 10px;
+    min-height: 500px;
+    width: 875px;
+    margin: 50px auto 50px auto;
+    padding: 50px 50px;
+}
+
+.card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 25px rgb(0 0 0 / 70%);
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto 50px auto;
+    font-size: 14px;
+}
+
+.card--cabecalho {
+    display: flex;
+    background: #e41021;
+    justify-content: space-around;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #FFFFFF;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px 15px
+}
+
+.card--cabecalho div {
+    display: flex;
+}
+
+.card--cabecalho p {
+    display: inline-block;
+}
+
+.card--cabecalho--text--estatico {
+    font-weight: 600;
+}
+
+.card--cabecalho--text--variavel {
+    margin-left: 5px;
+}
+
+.card--cabecalho--text--variavel-desc {
+    margin-left: 5px;
+    white-space: nowrap;
+    max-width: 12em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--body--area--img img {
+    width: 180px;
+    height: 180px;
+}
+
+.card--body--area--infos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+    justify-content: space-between;
+    margin: 30px 0
+}
+
+.card--body--area--infos--row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.card--body--area--infos--row div {
+    display: flex;
+}
+
+.card--body--area--infos--row p {
+    display: inline-block;
+}
+
+.card--body--area--infos--text--variavel {
+    text-overflow: ellipsis;
+    margin-left: 5px;
+}
+
+.card--body--area--infos--text--variavel-fab {
+    white-space: nowrap;
+    max-width: 12em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+}
+
+.card--body--area--infos--text--estatico {
+    font-weight: 600;
+}
+
+.botao-adicionar {
+    background: #e41021;
+    box-shadow: 5px 5px 6px rgb(0 0 0 / 20%);
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 68px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.card--body--area--infos--row--btn {
+    display: flex;
+    justify-content: flex-end
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #707070;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#e41021" />
+    <title>Kazanto - Impressão</title>
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <p><b>Kazanto</b> - Impressão</p>
+        </div>
+
+        <h1 class="titulo-principal">Pesquisa e inclusão</h1>
+    </header>
+
+    <main>
+        <!--área de pesquisa-->
+        <div class="nav-main">
+            <div class="nav-botao-nav">
+                <a href="#"><img src="icon-impressora.png" alt="Imagem de uma impressora" /></a>
+            </div>
+            <form>
+                <select class="nav-campo campo--p" placeholder="Filial">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+
+                <input class="nav-campo campo--m" type="text" id="Fabricante" placeholder="Fabricante" />
+
+                <input class="nav-campo campo--g" type="text" id="Descrição" placeholder="Descrição" />
+
+                <input class="nav-campo campo--m" type="number" id="Cód. Barras" placeholder="Cód. Barras" />
+
+                <input class="nav-campo campo--m" type="number" id="WinThor" placeholder="WinThor" />
+
+                <button>Pesquisar</button>
+            </form>
+        </div>
+        <!--área de resultados-->
+        <div class="container">
+            <div class="card">
+                <div class="card--cabecalho">
+                    <div>
+                        <p class="card--cabecalho--text--estatico">WinThor:</p>
+                        <p class="card--cabecalho--text--variavel">0000</p>
+                    </div>
+                    <div>
+                        <p class="card--cabecalho--text--estatico">Descrição:</p>
+                        <p class="card--cabecalho--text--variavel-desc">CA08046 SAPATEIRA 6 PARES 3 NIV 41X18CM-</p>
+                    </div>
+                    <div>
+                        <p class="card--cabecalho--text--estatico">Cód. Barras:</p>
+                        <p class="card--cabecalho--text--variavel">00000000</p>
+                    </div>
+                    <div>
+                        <p class="card--cabecalho--text--estatico">Ativo:</p>
+                        <p class="card--cabecalho--text--variavel">S</p>
+                    </div>
+                </div>
+                <div class="card--body--area">
+                    <div class="card--body--area--img"> <img src="img-produt.jpg" alt="Imagem do produto"> </div>
+                    <div class="card--body--area--infos">
+                        <div class="card--body--area--infos--row">
+                            <div>
+                                <p class="card--body--area--infos--text--estatico">Preço:</p>
+                                <p class="card--body--area--infos--text--variavel">R$ 1.000,00</p>
+                            </div>
+                            <div>
+                                <p class="card--body--area--infos--text--estatico">Preço atacado:</p>
+                                <p class="card--body--area--infos--text--variavel">R$ 800,00</p>
+                            </div>
+                            <div>
+                                <p class="card--body--area--infos--text--estatico">Estoque:</p>
+                                <p class="card--body--area--infos--text--variavel">500</p>
+                            </div>
+                        </div>
+                        <div class="card--body--area--infos--row">
+                            <div>
+                                <p class="card--body--area--infos--text--estatico">Promoção?</p>
+                                <p class="card--body--area--infos--text--variavel">S</p>
+                            </div>
+                            <div>
+                                <p class="card--body--area--infos--text--estatico">Vigência:</p>
+                                <p class="card--body--area--infos--text--variavel">20/10/2052 a 23/10/2052</p>
+                            </div>
+                            <div>
+                                <p class="card--body--area--infos--text--estatico">Fabricante:</p>
+                                <p class="card--body--area--infos--text--variavel-fab">Coca-cola co.</p>
+                            </div>
+                        </div>
+                        <div class="card--body--area--infos--row--btn">
+                            <button class="botao-adicionar">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>
