@@ -17,295 +17,115 @@
 <body>
     <header>
         <div class="header">
-            <p><b>Kazanto</b> - Impressão</p>
+            <p>
+                <b>Kazanto</b> - Impressão
+            </p>
         </div>
 
         <h1 class="titulo-principal">Confirmação e impressão</h1>
     </header>
 
     <main>
+        <div class="nav-main">
+            <div class="nav-main__botao-nav">
+                <a href="index.html"><img src="images/home.png" alt="Imagem de uma impressora" /></a>
+            </div>
+        </div>
         <!--área de resultados-->
-
-        <form class="main--body">
-                <div class="container-impress">
-                    <div class="card-area">
-                        <div class="card">
-                            <div class="card--cabecalho">
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">WinThor:</p>
-                                    <p class="card--cabecalho--text--variavel">0000</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Descrição:</p>
-                                    <p class="card--cabecalho--text--variavel-desc">CA08046 SAPATEIRA 6 PARES 3 NIV 41X18CM-</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Cód. Barras:</p>
-                                    <p class="card--cabecalho--text--variavel">00000000</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Ativo:</p>
-                                    <p class="card--cabecalho--text--variavel">S</p>
-                                </div>
+        <div class="results-container">
+            <div class="box box--2">
+                <div class="item-area">
+                    <div class="card-1">
+                        <div class="card-1__header">
+                            <div>
+                                <p class="card-1__header__text--estatico">WinThor:</p>
+                                <p class="card-1__header__text--variavel">0000</p>
                             </div>
-                            <div class="card--body--area">
-                                <div class="card--body--area--img"> <img src="images/img-produt.jpg" alt="Imagem do produto"> </div>
-                                <div class="card--body--area--infos">
-                                    <div class="card--body--area--infos--row">
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Preço:</p>
-                                            <p class="card--body--area--infos--text--variavel">R$ 1.000,00</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Preço atacado:</p>
-                                            <p class="card--body--area--infos--text--variavel">R$ 800,00</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Estoque:</p>
-                                            <p class="card--body--area--infos--text--variavel">500</p>
-                                        </div>
-                                    </div>
-                                    <div class="card--body--area--infos--row">
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Promoção?</p>
-                                            <p class="card--body--area--infos--text--variavel">S</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Vigência:</p>
-                                            <p class="card--body--area--infos--text--variavel">20/10/2052 a 23/10/2052</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Fabricante:</p>
-                                            <p class="card--body--area--infos--text--variavel-fab">Coca-cola co.</p>
-                                        </div>
-                                    </div>
-                                    <div class="card--body--area--infos--row--btn">
-                                        <button class="card--body--area-btn">Remover</button>
-                                    </div>
-                                </div>
+                            <div>
+                                <p class="card-1__header__text--estatico">Descrição:</p>
+                                <p class="card-1__header__text--variavel--desc">CA08046 SAPATEIRA 6 PARES 3 NIV 41X18CM-</p>
+                            </div>
+                            <div>
+                                <p class="card-1__header__text--estatico">Cód. Barras:</p>
+                                <p class="card-1__header__text--variavel-">00000000</p>
+                            </div>
+                            <div>
+                                <p class="card-1__header__text--estatico">Situação:</p>
+                                <p class="card-1__header__text--variavel-">S</p>
                             </div>
                         </div>
-                        <div>
-                            <input class="campo--qt campo--p" type="number" id="551" placeholder="0" />
+                        <div class="card-1__body">
+                            <div class="card-1__body__img">
+                                <img src="images/img-produt.jpg" alt="Imagem do produto">
+                            </div>
+                            <div class="card-1__body__infos">
+                                <div class="card-1__body__infos__row">
+                                    <div>
+                                        <p class="card-1__body__infos__text--estatico">Preço:</p>
+                                        <p class="card-1__body__infos__text--variavel">R$ 1.000,00</p>
+                                    </div>
+                                    <div>
+                                        <p class="card-1__body__infos__text--estatico">Preço atacado:</p>
+                                        <p class="card-1__body__infos__text--variavel">R$ 800,00</p>
+                                    </div>
+                                    <div>
+                                        <p class="card-1__body__infos__text--estatico">Preço Fixo:</p>
+                                        <p class="card-1__body__infos__text--variavel">R$ 800,00</p>
+                                    </div>
+                                </div>
+                                <div class="card-1__body__infos__row">
+                                    <div>
+                                        <p class="card-1__body__infos__text--estatico">Promoção?</p>
+                                        <p class="card-1__body__infos__text--variavel">S</p>
+                                    </div>
+                                    <div>
+                                        <p class="card-1__body__infos__text--estatico">Estoque:</p>
+                                        <p class="card-1__body__infos__text--variavel">500</p>
+                                    </div>
+                                    <div>
+                                        <p class="card-1__body__infos__text--estatico">Fornecedor:</p>
+                                        <p class="card-1__body__infos__text--variavel--fornecedor">Coca-cola company.</p>
+                                    </div>
+                                </div>
+                                <div class="card-1__body__infos__row--btn">
+                                    <form>
+                                        <button type="submit" class="botao-1">Remover</button>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-area">
-                        <div class="card">
-                            <div class="card--cabecalho">
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">WinThor:</p>
-                                    <p class="card--cabecalho--text--variavel">0000</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Descrição:</p>
-                                    <p class="card--cabecalho--text--variavel-desc">CA08046 SAPATEIRA 6 PARES 3 NIV 41X18CM-</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Cód. Barras:</p>
-                                    <p class="card--cabecalho--text--variavel">00000000</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Ativo:</p>
-                                    <p class="card--cabecalho--text--variavel">S</p>
-                                </div>
-                            </div>
-                            <div class="card--body--area">
-                                <div class="card--body--area--img"> <img src="images/img-produt.jpg" alt="Imagem do produto"> </div>
-                                <div class="card--body--area--infos">
-                                    <div class="card--body--area--infos--row">
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Preço:</p>
-                                            <p class="card--body--area--infos--text--variavel">R$ 1.000,00</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Preço atacado:</p>
-                                            <p class="card--body--area--infos--text--variavel">R$ 800,00</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Estoque:</p>
-                                            <p class="card--body--area--infos--text--variavel">500</p>
-                                        </div>
-                                    </div>
-                                    <div class="card--body--area--infos--row">
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Promoção?</p>
-                                            <p class="card--body--area--infos--text--variavel">S</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Vigência:</p>
-                                            <p class="card--body--area--infos--text--variavel">20/10/2052 a 23/10/2052</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Fabricante:</p>
-                                            <p class="card--body--area--infos--text--variavel-fab">Coca-cola co.</p>
-                                        </div>
-                                    </div>
-                                    <div class="card--body--area--infos--row--btn">
-                                        <button class="card--body--area-btn">Remover</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <input class="campo--qt campo--p" type="number" id="551" placeholder="0" />
-                        </div>
-                    </div>
-                    <div class="card-area">
-                        <div class="card">
-                            <div class="card--cabecalho">
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">WinThor:</p>
-                                    <p class="card--cabecalho--text--variavel">0000</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Descrição:</p>
-                                    <p class="card--cabecalho--text--variavel-desc">CA08046 SAPATEIRA 6 PARES 3 NIV 41X18CM-</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Cód. Barras:</p>
-                                    <p class="card--cabecalho--text--variavel">00000000</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Ativo:</p>
-                                    <p class="card--cabecalho--text--variavel">S</p>
-                                </div>
-                            </div>
-                            <div class="card--body--area">
-                                <div class="card--body--area--img"> <img src="images/img-produt.jpg" alt="Imagem do produto"> </div>
-                                <div class="card--body--area--infos">
-                                    <div class="card--body--area--infos--row">
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Preço:</p>
-                                            <p class="card--body--area--infos--text--variavel">R$ 1.000,00</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Preço atacado:</p>
-                                            <p class="card--body--area--infos--text--variavel">R$ 800,00</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Estoque:</p>
-                                            <p class="card--body--area--infos--text--variavel">500</p>
-                                        </div>
-                                    </div>
-                                    <div class="card--body--area--infos--row">
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Promoção?</p>
-                                            <p class="card--body--area--infos--text--variavel">S</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Vigência:</p>
-                                            <p class="card--body--area--infos--text--variavel">20/10/2052 a 23/10/2052</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Fabricante:</p>
-                                            <p class="card--body--area--infos--text--variavel-fab">Coca-cola co.</p>
-                                        </div>
-                                    </div>
-                                    <div class="card--body--area--infos--row--btn">
-                                        <button class="card--body--area-btn">Remover</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <input class="campo--qt campo--p" type="number" id="551" placeholder="0" />
-                        </div>
-                    </div>
-                    <div class="card-area">
-                        <div class="card">
-                            <div class="card--cabecalho">
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">WinThor:</p>
-                                    <p class="card--cabecalho--text--variavel">0000</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Descrição:</p>
-                                    <p class="card--cabecalho--text--variavel-desc">CA08046 SAPATEIRA 6 PARES 3 NIV 41X18CM-</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Cód. Barras:</p>
-                                    <p class="card--cabecalho--text--variavel">00000000</p>
-                                </div>
-                                <div>
-                                    <p class="card--cabecalho--text--estatico">Ativo:</p>
-                                    <p class="card--cabecalho--text--variavel">S</p>
-                                </div>
-                            </div>
-                            <div class="card--body--area">
-                                <div class="card--body--area--img"> <img src="images/img-produt.jpg" alt="Imagem do produto"> </div>
-                                <div class="card--body--area--infos">
-                                    <div class="card--body--area--infos--row">
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Preço:</p>
-                                            <p class="card--body--area--infos--text--variavel">R$ 1.000,00</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Preço atacado:</p>
-                                            <p class="card--body--area--infos--text--variavel">R$ 800,00</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Estoque:</p>
-                                            <p class="card--body--area--infos--text--variavel">500</p>
-                                        </div>
-                                    </div>
-                                    <div class="card--body--area--infos--row">
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Promoção?</p>
-                                            <p class="card--body--area--infos--text--variavel">S</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Vigência:</p>
-                                            <p class="card--body--area--infos--text--variavel">20/10/2052 a 23/10/2052</p>
-                                        </div>
-                                        <div>
-                                            <p class="card--body--area--infos--text--estatico">Fabricante:</p>
-                                            <p class="card--body--area--infos--text--variavel-fab">Coca-cola co.</p>
-                                        </div>
-                                    </div>
-                                    <div class="card--body--area--infos--row--btn">
-                                        <button class="card--body--area-btn">Remover</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <input class="campo--qt campo--p" type="number" id="551" placeholder="0" />
-                        </div>
-                    </div>
-                    <div class="btns--imprs">
-                        <button class="card--body--area-btn">Limpar</button>
-                        <button class="card--body--area-btn">Gerar Rel.</button>
+                    <div>
+                        <input class="item-area__qt campo--p" name="qtCopias" type="number" placeholder="0" form="formImpressao" value="1" />
                     </div>
                 </div>
-                <div class="container--impress">
-                    <select class="nav-campo campo--g" placeholder="Filial">
-                        <option>Impressora 1</option>
-                        <option>Impressora 2</option>
-                        <option>Impressora 3</option>
-                        <option>Impressora 4</option>
-                    </select>
-                    <div class="container--impress--card">
-                        <p>Varejo pequeno</p>
-                        <input class="botao-imprimir" type="text" id="01" placeholder="Imprimir" />
-                    </div>
-                    <div class="container--impress--card">
-                        <p>Varejo grande</p>
-                        <input class="botao-imprimir" type="text" id="01" placeholder="Imprimir" />
-                    </div>
-                    <div class="container--impress--card">
-                        <p>Atacado pequeno</p>
-                        <input class="botao-imprimir" type="text" id="01" placeholder="Imprimir" />
-                    </div>
-                    <div class="container--impress--card">
-                        <p>Atacado pequeno</p>
-                        <input class="botao-imprimir" type="text" id="01" placeholder="Imprimir" />
-                    </div>
-                    <div class="container--impress--card">
-                        <p>Promoção</p>
-                        <input class="botao-imprimir" type="text" id="01" placeholder="Imprimir" />
-                    </div>
+                <div class="results-container__buttons">
+                    <button type="submit" class="botao-1" form="limpar">Limpar</button>
+                    <button type="submit" class="botao-1" form="formRelatorio">Relatório</button>
                 </div>
-        </form>
+            </div>
+            <div class="box box--3">
+                <label for="nomeImpressora">Selecione a impressora:</label> <select class="campo--g" name="nomeImpressora" id="selectImpressora" placeholder="Filial" form="formImpressao">
+                    <option>Impressora</option>
+                </select>
+                <div class="label-card">
+                    <p>Etiqueta 1</p>
+                    <button type="submit" class="botao-2" name="modelo" form="formImpressao">Imprimir</button>
+                </div>
+                <div class="label-card">
+                    <p>Etiqueta 2</p>
+                    <button type="submit" class="botao-2" name="modelo" form="formImpressao">Imprimir</button>
+                </div>
+                <div class="label-card">
+                    <p>Etiqueta 3</p>
+                    <button type="submit" class="botao-2" name="modelo" form="formImpressao">Imprimir</button>
+                </div>
+                <div class="label-card">
+                    <p>Etiqueta 4</p>
+                    <button type="submit" class="botao-2" name="modelo" form="formImpressao">Imprimir</button>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer></footer>
